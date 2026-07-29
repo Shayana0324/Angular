@@ -1,0 +1,16 @@
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+
+nav ul li {
+  color:#654321;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+nav ul li:hover{
+  color:red;
+  cursor: pointer;
+}
