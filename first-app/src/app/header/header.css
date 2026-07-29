@@ -1,7 +1,16 @@
+header {
+  display: flex;
+  padding: 10px 10px 15px;
+  justify-content: center;
+  width: 100%;
+}
+
 nav ul {
   list-style: none;
   display: flex;
   gap: 50px;
+  margin: 0;
+  padding: 0;
 }
 
 nav ul li {
@@ -14,3 +23,4 @@ nav ul li:hover{
   color:red;
   cursor: pointer;
 }
+
