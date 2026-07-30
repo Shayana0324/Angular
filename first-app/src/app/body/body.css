@@ -6,12 +6,12 @@
 h2 {
   font-family: 'Georgia', Garamond, serif;
   font-size: 22px;
-  font-weight: 400;         
+  font-weight: 400;
   font-style: italic;
   color: #332421;           /* Dark Chocolate Brown */
 }
 
-body {
+div {
   margin: 50px;
   padding-bottom: 50px;
 }
