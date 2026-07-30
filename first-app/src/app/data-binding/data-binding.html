@@ -1,1 +1,12 @@
-<p>data-binding works!</p>
+<link rel="stylesheet" href="data-binding.css">
+
+<div>
+  <p style="font-size: 20px;">Find more details about our book club meetings:</p>
+
+  <p><b>Location:</b> {{ location }}</p>
+  <p><b>Meeting Time:</b> {{ meetingTime }}</p>
+  <p><b>Current Book:</b> {{ currentBook }}</p>
+
+  <button [disabled]="isDisabled">Click to see current book details</button> <br>
+  <button (click)="showMessage()">Next Book!</button>
+</div>

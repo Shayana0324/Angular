@@ -12,6 +12,6 @@ h2 {
 }
 
 div {
-  margin: 50px;
-  padding-bottom: 50px;
+  margin: 50px 50px 10px;
+  padding-bottom: 2px;
 }
